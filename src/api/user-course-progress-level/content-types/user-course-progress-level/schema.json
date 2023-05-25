@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_course_progress_levels",
+  "info": {
+    "singularName": "user-course-progress-level",
+    "pluralName": "user-course-progress-levels",
+    "displayName": "User Course Progress Level"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "integer"
+    },
+    "courseId": {
+      "type": "integer"
+    },
+    "courseContentId": {
+      "type": "integer"
+    }
+  }
+}

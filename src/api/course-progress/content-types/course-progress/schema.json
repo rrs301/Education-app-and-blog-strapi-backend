@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_progresses",
+  "info": {
+    "singularName": "course-progress",
+    "pluralName": "course-progresses",
+    "displayName": "CourseProgress",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "integer"
+    },
+    "courseId": {
+      "type": "integer"
+    },
+    "courseContentId": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string",
+      "default": "progress"
+    }
+  }
+}
